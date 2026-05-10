@@ -27,6 +27,7 @@ Al termine del test, l'applicazione calcola il risultato totale e lo confronta c
 
 ## Installazione e Avvio
 1. Opzione Rapida (Consigliata per Windows)
+
    Se sei su Windows, non serve installare nulla:
    * Vai nei 'Tag' e scarica: 'Main.py' e 'risultati.db'
    * Assicurati che il file risultati.db sia nella stessa cartella di main.exe.
