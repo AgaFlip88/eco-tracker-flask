@@ -32,7 +32,8 @@ Al termine del test, l'applicazione calcola il risultato totale e lo confronta c
    * Assicurati che il file risultati.db sia nella stessa cartella di main.exe.
    * Fai doppio clic su main.exe.
    * premi CTRL e tasto destro su: http://127.0.0.1:5000.
- Altrimenti continua a leggere:
+ 
+Altrimenti continua a leggere:
 
 1. Preparazione dell'ambiente
 
