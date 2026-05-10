@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <title>Impronta Digitale - Domanda 5</title>
+</head>
+<body class="sfondo5">
+  <header class="header5">
+    <div class="header__text">
+      <h1>Calcola la tua Impronta Digitale!</h1>
+    </div>
+  </header>
+  <main>
+    <h2 class="main__title">Giochi online? Per quanto tempo?</h2>
+    <ul class="list">
+      <li class="list__item"><a href="/{{previous_data + '/0'}}"><span>No, non gioco</span></a></li>
+      <li class="list__item"><a href="/{{previous_data + '/10'}}"><span>Meno di 20 min</span></a></li>
+      <li class="list__item"><a href="/{{previous_data + '/40'}}"><span>20 min - 1 ora</span></a></li>
+      <li class="list__item"><a href="/{{previous_data + '/120'}}"><span>Oltre 1 ora</span></a></li>
+    </ul>
+    <p class="media-info">La media delle altre persone per la domanda precedente è: {{ media }} minuti</p>
+</main>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <title>Impronta Digitale - Domanda 3</title>
+</head>
+<body class="sfondo3">
+  <header class="header3">
+    <div class="header__text">
+      <h1>Calcola la tua Impronta Digitale!</h1>
+    </div>
+  </header>
+  <main>
+    <h2 class="main__title">Quanto tempo guardi piattaforme streaming (Netflix, Prime, ecc.)?</h2>
+    <ul class="list">
+      <li class="list__item"><a href="/{{previous_data}}/15"><span>Meno di 30 min</span></a></li>
+      <li class="list__item"><a href="/{{previous_data}}/60"><span>30 min - 1.5 ore</span></a></li>
+      <li class="list__item"><a href="/{{previous_data}}/135"><span>1.5 ore - 3 ore</span></a></li>
+      <li class="list__item"><a href="/{{previous_data}}/240"><span>Oltre 3 ore</span></a></li>
+    </ul>
+    <p class="media-info">La media delle altre persone per la domanda precedente è: {{ media }} minuti</p>
+</main>
+</body>
+</html>
