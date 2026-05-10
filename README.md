@@ -29,7 +29,7 @@ Al termine del test, l'applicazione calcola il risultato totale e lo confronta c
 1. Opzione Rapida (Consigliata per Windows)
 
    Se sei su Windows, non serve installare nulla:
-   * Vai nei 'Tag'; premere su v1.0 e scarica: 'main.exe' e 'risultati.db'
+   * Vai nei 'Tag'; premere su v1.0 e scarica: 'eco-tracker.exe' e 'risultati.db'
    * Assicurati che il file risultati.db sia nella stessa cartella di main.exe.
    * Fai doppio clic su main.exe.
    * premi CTRL e tasto destro su: http://127.0.0.1:5000.
