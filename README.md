@@ -26,6 +26,14 @@ Al termine del test, l'applicazione calcola il risultato totale e lo confronta c
 * `risultati.db`: Database SQLite che memorizza le risposte anonime per generare statistiche in tempo reale.
 
 ## Installazione e Avvio
+1. Opzione Rapida (Consigliata per Windows)
+   Se sei su Windows, non serve installare nulla:
+   * Vai nei 'Tag' e scarica: 'Main.py' e 'risultati.db'
+   * Assicurati che il file risultati.db sia nella stessa cartella di main.exe.
+   * Fai doppio clic su main.exe.
+   * premi CTRL e tasto destro su: http://127.0.0.1:5000.
+Altrimenti continua a leggere:
+
 1. Preparazione dell'ambiente
 
 Si consiglia l'uso di Visual Studio Code come editor di codice. Assicurati di aver installato l'estensione ufficiale di Python.
@@ -43,12 +51,7 @@ Si consiglia l'uso di Visual Studio Code come editor di codice. Assicurati di av
     ```
     Il sito sarà accessibile all'indirizzo: `http://127.0.0.1:5000`.
 
-4. Opzione Rapida (Consigliata per Windows)
-   Se sei su Windows, non serve installare nulla:
-   * Vai nei 'Tag' e scarica: 'Main.py' e 'risultati.db'
-   * Assicurati che il file risultati.db sia nella stessa cartella di main.exe.
-   * Fai doppio clic su main.exe.
-   * premi CTRL e tasto destro su: http://127.0.0.1:5000.
+
         
 ## Logica di Calcolo
 L'impronta viene calcolata in `main.py` utilizzando i seguenti coefficienti di emissione stimati per categoria:
